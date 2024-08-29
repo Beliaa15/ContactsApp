@@ -24,7 +24,7 @@ fun TopAppBar(modifier: Modifier = Modifier) {
     val context = LocalContext.current
     TopAppBar(
         modifier = modifier,
-        title = { Text(text = stringResource(id = R.string.app_name)) },
+        title = { Text(text = "Contacts App") },
         actions = {
             Icon(
                 imageVector = Icons.Default.Home,
